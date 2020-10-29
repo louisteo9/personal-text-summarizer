@@ -7,4 +7,4 @@ You can find the original news here: https://analyticsindiamag.com/apple-acquire
 
 We will be following the workflow below to summarize a text.
 
-# # import text>> >> clean text and split into sentences >> remove stop words >> build word histogram>> rank sentences>> select top N sentences for summary
+## import text>> >> clean text and split into sentences >> remove stop words >> build word histogram>> rank sentences>> select top N sentences for summary
