@@ -28,4 +28,4 @@ b. Enter the following inputs when prompted:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;2. Enter output file name (e.g. summary.txt): **_summary.txt_**<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;3. Enter max sentence word length (choose between 25 - 30): **_30_**<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;4. Enter number of sentences you want in summary (choose between 3 - 5): **_3_**<br/>
-c. Check your output file after 'Summarization task completed. Please check your output file.' message is appeared.
+c. Check your output file after 'Summarization task completed. Please check your output file.' message appears.
