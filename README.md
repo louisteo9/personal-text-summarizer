@@ -12,9 +12,9 @@ Below is the workflow that we will be following…<br/>
 
 ## File Descriptions
 
-personal text summarizer.ipynb - notebook file in preparation for text_summarizer.py<br/>
+Personal Text Summarizer.ipynb - notebook file in preparation for text_summarizer.py<br/>
 Apple_Acquires_AI_Startup.txt - news in text file<br/>
-text_summarizer.py - excuatable Python script for personal text summarizer<br/>
+text_summarizer.py - excuatable Python file for personal text summarizer<br/>
 
 ## Instructions
 
