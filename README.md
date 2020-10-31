@@ -20,7 +20,7 @@ text_summarizer.py - excuatable Python script for personal text summarizer<br/>
 
 There should be no necessary libraries to run the code here beyond the Anaconda distribution of Python. The code should run with no issues using Python versions 3.*.
 
-a. Run the following commands in the project's root directory `python text_summarizer.py`<br/>
+a. Run this command in the project's root directory `python text_summarizer.py`<br/>
 b. Enter the following inputs when prompted:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;1. Enter text file name: Apple_Acquires_AI_Startup.txt<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;2. Enter output file name (e.g. summary.txt): summary.txt<br/>
