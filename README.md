@@ -24,8 +24,8 @@ There should be no necessary libraries to run the code here beyond the Anaconda 
 
 a. Run this command in the project's root directory `python text_summarizer.py`<br/>
 b. Enter the following inputs when prompted:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;1. Enter text file name: Apple_Acquires_AI_Startup.txt<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;2. Enter output file name (e.g. summary.txt): summary.txt<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;3. Enter max sentence word length (choose between 25 - 30): 30<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;4. Enter number of sentences you want in summary (choose between 3 - 5): 3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;1. Enter text file name: **_Apple_Acquires_AI_Startup.txt_**<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;2. Enter output file name (e.g. summary.txt): **_summary.txt_**<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;3. Enter max sentence word length (choose between 25 - 30): **_30_**<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;4. Enter number of sentences you want in summary (choose between 3 - 5): **_3_**<br/>
 c. Check your output file after 'Summarization task completed. Please check your output file.' message is appeared.
