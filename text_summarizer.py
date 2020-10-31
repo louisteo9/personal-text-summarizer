@@ -73,7 +73,7 @@ def main():
 
         return summarized_text
 
-    # generate generate
+    # generate summary
     summary = generate_summary(file_name, sent_word_length, top_n)
 
     # save summary to txt file
