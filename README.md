@@ -16,7 +16,7 @@ Below is the workflow that we will be following…
 
 Personal Text Summarizer.ipynb - notebook file in preparation for text_summarizer.py<br/>
 Apple_Acquires_AI_Startup.txt - news in text file<br/>
-text_summarizer.py - excuatable Python file for personal text summarizer<br/>
+text_summarizer.py - Python script for personal text summarizer<br/>
 
 ## Instructions
 
