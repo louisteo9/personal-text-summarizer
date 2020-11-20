@@ -16,7 +16,7 @@ def main():
     top_n = input('4. Enter number of sentences you want in summary (choose between 3 - 5):')
 
     def read_text(file_name):
-        with open(file_name, encoding='utf8', errors='ignore', mode='r') as f:
+        with open(file_name, 'r') as f:
             file_data = f.read()
 
         text = file_data
@@ -24,7 +24,7 @@ def main():
         text = re.sub(r'\s+',' ',text)
 
         clean_text = text.lower()
-        # replace non-word characters and digits with space; and trim multiple spaces
+        # replace characters other than [a-zA-Z0-9], digits & one or more spaces with single space
         regex_patterns = [r'\W',r'\d',r'\s+']
         for regex in regex_patterns:
             clean_text = re.sub(regex,' ',clean_text) 
