@@ -24,6 +24,7 @@ def main():
         text = re.sub(r'\s+',' ',text)
 
         clean_text = text.lower()
+
         # replace characters other than [a-zA-Z0-9], digits & one or more spaces with single space
         regex_patterns = [r'\W',r'\d',r'\s+']
         for regex in regex_patterns:
