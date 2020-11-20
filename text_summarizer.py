@@ -11,9 +11,9 @@ import sys
 
 def main():
     file_name = input('1. Enter text file name: ')
-    output_location = input('2. Enter output file name (e.g. summary.txt):')
+    output_location = input('2. Enter output file name (e.g. summary.txt): ')
     sent_word_length = input('3. Enter max sentence word length (choose between 25 - 30): ')
-    top_n = input('4. Enter number of sentences you want in summary (choose between 3 - 5):')
+    top_n = input('4. Enter number of sentences you want in summary (choose between 3 - 5): ')
 
     def read_text(file_name):
         with open(file_name, 'r') as f:
