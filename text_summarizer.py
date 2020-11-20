@@ -24,9 +24,10 @@ def main():
         text = re.sub(r'\s+',' ',text)
 
         clean_text = text.lower()
-        clean_text = re.sub(r'\W',' ',clean_text)
-        clean_text = re.sub(r'\d',' ',clean_text)
-        clean_text = re.sub(r'\s+',' ',clean_text)
+        # replace non-word characters and digits with space; and trim multiple spaces
+        regex_patterns = [r'\W',r'\d',r'\s+']
+        for regex in regex_patterns:
+            clean_text = re.sub(regex,' ',clean_text) 
 
         return text, clean_text
 
