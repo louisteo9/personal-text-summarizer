@@ -16,6 +16,16 @@ def main():
     top_n = input('4. Enter number of sentences you want in summary (choose between 3 - 5): ')
 
     def read_text(file_name):
+        """
+        Read text from file
+
+        INPUT:
+        file_name - Text file containing original text.
+
+        OUTPUT:
+        text - str. Text with reference number, i.e. [1], [10] replaced with space, if any...
+        clean_text - str. Lowercase characters with digits & one or more spaces replaced with single space.
+        """
         with open(file_name, 'r') as f:
             file_data = f.read()
 
@@ -28,11 +38,22 @@ def main():
         # replace characters other than [a-zA-Z0-9], digits & one or more spaces with single space
         regex_patterns = [r'\W',r'\d',r'\s+']
         for regex in regex_patterns:
-            clean_text = re.sub(regex,' ',clean_text) 
+            clean_text = re.sub(regex,' ',clean_text)
 
         return text, clean_text
 
     def rank_sentence(text, clean_text, sent_word_length):
+        """
+        Rank each sentence and return sentence score
+
+        INPUT:
+        text - str. Text with reference numbers, i.e. [1], [10] removed, if any...
+        clean_text - str. Clean lowercase characters with digits and additional spaces removed.
+        sent_word_length - int. Maximum number of words in a sentence.
+
+        OUTPUT:
+        sentence_score - dict. Sentence score
+        """
         sentences = nltk.sent_tokenize(text)
         stop_words = nltk.corpus.stopwords.words('english')
 
@@ -57,7 +78,17 @@ def main():
         return sentence_score
 
     def generate_summary(file_name, sent_word_length, top_n):
+        """
+        Generate summary
 
+        INPUT:
+        file_name - Text file containing original text.
+        sent_word_length - int. Maximum number of words in a sentence.
+        top_n - int. Top n sentences to display.
+
+        OUTPUT:
+        summarized_text - str. Summarized text with each sentence on each line.
+        """
         text, clean_text = read_text(file_name)
 
         sentence_score = rank_sentence(text, clean_text, sent_word_length)
