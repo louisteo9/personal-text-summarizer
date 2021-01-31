@@ -1,29 +1,40 @@
 # Personal Text Summarizer
+## Table of Contents
+1. [Introduction]()
+2. [File Description]()
+3. [Installation]()
+4. [Instructions]()
+5. [Acknowledgement]()
+6. [Screenshot]()
 
-## Description
+## Introduction
 
-I will show you how you can create your personal text summarizer using Natural Language Processing (NLP) in Python.
+In this project, I will show you how you can create your own personal text summarizer using Natural Language Processing (NLP) in Python.
 
-You can read the post I published on Towards Data Science<br/>
-https://towardsdatascience.com/report-is-too-long-to-read-use-nlp-to-create-a-summary-6f5f7801d355
+You can read the post I published on Towards Data Science [here](https://towardsdatascience.com/report-is-too-long-to-read-use-nlp-to-create-a-summary-6f5f7801d355)<br/>
 
 I used the text from a news article entitled Apple Acquires AI Startup For $50 Million To Advance Its Apps.
 
-You can find the original news article here: https://analyticsindiamag.com/apple-acquires-ai-startup-for-50-million-to-advance-its-apps/
+You can find the original news article [here](https://analyticsindiamag.com/apple-acquires-ai-startup-for-50-million-to-advance-its-apps/)
 
 Below is the workflow that we will be following…
 
 **_import text>> >> clean text and split into sentences >> remove stop words >> build word histogram>> rank sentences>> select top N sentences for summary_**
 
-## File Descriptions
+This project includes the complete Python script that you can use right away to summarize your text.
 
-Personal Text Summarizer.ipynb - notebook file in preparation for text_summarizer.py<br/>
-Apple_Acquires_AI_Startup.txt - news in text file<br/>
-text_summarizer.py - Python script for personal text summarizer<br/>
+## File Description
+**Personal Text Summarizer.ipynb** - Jupyter Notebook in preparation for text summarizer<br/>
+**Apple_Acquires_AI_Startup.txt** - news in text file<br/>
+**text_summarizer.py** - Python script for personal text summarizer<br/>
+
+## Installation
+Apart from NLTK (natural language toolkit) library, there should be no extra libraries required to install apart from those coming together with Anaconda distribution. The code should run with no issues using Python versions 3.5 and above.
+
+### Libraries used
+NLTK, re, heapq, numpy, pandas, sys
 
 ## Instructions
-
-There should be no necessary libraries to run the code here beyond the Anaconda distribution of Python. The code should run with no issues using Python versions 3.*.
 
 a. Run this command in the project's root directory `python text_summarizer.py`<br/>
 b. Enter the following inputs when prompted:<br/>
@@ -32,3 +43,9 @@ b. Enter the following inputs when prompted:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;3. Enter max sentence word length (choose between 25 - 30): **_30_**<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;4. Enter number of sentences you want in summary (choose between 3 - 5): **_3_**<br/>
 c. Check your output file after 'Summarization task completed. Please check your output file.' message appears.
+
+## Acknowledgement
+[Next Edge Coding](https://www.udemy.com/user/bijoyan-das/) for inspiring me on how to create my personal text summarizer.
+
+## Screenshot
+![](https://github.com/louisteo9/personal-text-summarizer/blob/main/screenshots/algorithm%20in%20action.gif)
