@@ -1,11 +1,11 @@
 # Personal Text Summarizer
 ## Table of Contents
-1. [Introduction]()
-2. [File Description]()
-3. [Installation]()
-4. [Instructions]()
-5. [Acknowledgement]()
-6. [Screenshot]()
+1. [Introduction](https://github.com/louisteo9/personal-text-summarizer#introduction)
+2. [File Description](https://github.com/louisteo9/personal-text-summarizer#file-description)
+3. [Installation](https://github.com/louisteo9/personal-text-summarizer#installation)
+4. [Instructions](https://github.com/louisteo9/personal-text-summarizer#instructions)
+5. [Acknowledgement](https://github.com/louisteo9/personal-text-summarizer#acknowledgement)
+6. [Screenshot](https://github.com/louisteo9/personal-text-summarizer#screenshot)
 
 ## Introduction
 
@@ -31,7 +31,7 @@ This project includes the complete Python script that you can use right away to 
 ## Installation
 Apart from NLTK (natural language toolkit) library, there should be no extra libraries required to install apart from those coming together with Anaconda distribution. The code should run with no issues using Python versions 3.5 and above.
 
-### Libraries used
+#### Libraries used
 NLTK, re, heapq, numpy, pandas, sys
 
 ## Instructions
